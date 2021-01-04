@@ -1,0 +1,108 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    color:#3d0c02;
+    margin:0;
+}
+/* The following styles the Nav Bar */
+.topnav {
+    overflow:hidden;
+    background-color:#3d0c02;
+    position:fixed;
+    top:0;
+    width:100%;
+}
+.topnav a{
+    float: right;
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 14px 14px;
+    font-size:20px;
+    letter-spacing: 1px;
+}
+.topnav a:link{
+    text-decoration:none;
+}
+.topnav a:hover {
+    text-decoration: underline;
+}
+.topnav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+/*Creates a buffer for the sticky navbar and the content*/
+.content{
+    padding-top:50px;
+    margin:0;
+}
+/*Styling on the Homepage Title*/
+.site_title{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size:20px;
+    letter-spacing:5px;
+    color:white;
+    text-align:center;
+}
+
+/*styling for the hobby page*/
+.hobby_flexbox_container{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:stretch;
+}
+.hobby{
+    border:solid;
+    width:30%;
+    margin:20px;
+    padding:10px;
+}
+.hobby_title{
+    text-align: center;
+}
+
+/* This styles the blog posts */
+.post{
+    border:solid;
+    margin:25px;
+    padding:0px 10px 0px 10px;
+}
+
+.post h2{
+    text-decoration:underline;
+}
+
+/*Styling for the about page*/
+.about_images{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    margin-top:20px;
+
+}
+
+.about{
+    margin:25px;
+}
+
+/*Styling for the links at the bottom of the about page*/
+.social_links{
+    margin-left:auto;
+    margin-right:auto;
+    width:max-content;
+    text-align: center;
+}
+.social_links td{
+    padding:0px 10px 0px 10px;
+    width:100px;
+}
+.social_links tr td {
+    border-right: 1px solid black;
+}  
+.social_links tr td:last-of-type {
+    border: none;
+}
