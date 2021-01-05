@@ -3,6 +3,14 @@ body{
     color:#3d0c02;
     margin:0;
 }
+
+.landing {
+    background-image: url(images/DSCF7143.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 /* The following styles the Nav Bar */
 .topnav {
     overflow:hidden;
